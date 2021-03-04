@@ -5,7 +5,6 @@ body {
 
 /*Setting the height for the pages*/
 #MainContainer, #NavContainer, #Content {
-  height: 350vh;
 }
 
 /*Styling the Menu and Content*/
@@ -27,7 +26,8 @@ body {
 
 /*Styling the div of the title*/
 #CoverTitle {
-  padding-top: 10vw;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,6 +88,7 @@ body {
 #Content {
   width: 83%;
   background-color: #f8f2e9;
+  padding-bottom: 12vh;
 }
 
 /*Styling the texts in the contents div*/
