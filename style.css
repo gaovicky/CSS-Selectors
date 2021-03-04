@@ -5,7 +5,7 @@ body {
 
 /*Setting the height for the pages*/
 #MainContainer, #NavContainer, #Content {
-  height: 320vmax;
+  height: 350vh;
 }
 
 /*Styling the Menu and Content*/
