@@ -1,0 +1,201 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Setting the height for the pages*/
+#MainContainer, #NavContainer, #Content {
+  height: 320vh;
+}
+
+/*Styling the Menu and Content*/
+#MainContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/*Styling the Title on the cover page*/
+#CoverTitle>p {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: 5em;
+  margin: 0px;
+  padding: 0px;
+  color: #5a352c;
+}
+
+/*Styling the div of the title*/
+#CoverTitle {
+  padding-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Setting the size and color for the menu*/
+#NavContainer {
+  width: 17%;
+  background-color: #D2B48C;
+}
+
+/*Styling the home button*/
+#HomeButton {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Styling the recipe links*/
+#NavLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+/*Styling the links*/
+#NavLinks a, #HomeButton a {
+  color: #fff;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: block;
+  text-decoration: none;
+}
+
+/* Change the recipe links color on hover */
+#NavLinks a:hover {
+  background-color: #E8CB90;
+  color: #fff;
+}
+
+/* Change the recipe links color on active */
+#NavLinks a:active {
+  background-color: #5a352c;
+  color: #fff;
+}
+
+/*Setting the size and color of the contents div*/
+#Content {
+  width: 83%;
+  background-color: #f8f2e9;
+}
+
+/*Styling the texts in the contents div*/
+#Recipes, #FullRecipe {
+  font-family: 'Shippori Mincho', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+/*Styling the button on the cover page*/
+.rightButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*Styling the button on the recipe pages*/
+#Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Change the margin of the top buttons */
+.rightButton a, #Buttons {
+  margin: 2vmin;
+}
+
+/* Change the style of the top links */
+.rightButton a, #Buttons a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  color: #5a352c;
+  text-decoration: none;
+}
+
+/* Change the style of the top links on hover */
+.rightButton a:hover, #Buttons a:hover {
+  font-style: oblique;
+}
+
+/* Removing the margins of the p in both divs*/
+#HomeButton p, #Title p {
+  margin: 0px;
+}
+
+/* Removing the margins of the p in both divs*/
+#Title {
+  font-weight: 600;
+  font-size: 3em;
+  color: #5a352c;
+}
+
+/* Styling Author Text*/
+#Author p {
+  font-weight: 400;
+  margin-bottom: 5vh;
+  color: #5a352c;
+}
+
+/* Styling the images */
+#image {
+  width: 65vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+/* Styling the Recipe div*/
+#Recipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+  color: #5a352c;
+  line-height: 1.7em;
+  margin-top: 5vh;
+  }
+
+/* Styling the ingredients list*/
+#Ingredients {
+  list-style-type: circle;
+  width: 20vw;
+}
+
+/* Styling the instructions list*/
+#Instructions {
+  width: 40vw;
+}
+
+/* Styling the "FullRecipe" button*/
+#FullRecipe a {
+  font-weight: 500;
+  color:#5a352c;
+  text-decoration: none;
+  padding: 0vmin 8vmin 0vmin 8vmin;
+  background-color: #D2B48C;
+}
+
+/* Change the recipe links color on hover */
+#FullRecipe a:hover {
+  background-color: #E8CB90;
+  color: #f8f2e9;
+}
+
+/* Change the recipe links color on active */
+#FullRecipe a:active {
+  background-color: #5a352c;
+  color: #f8f2e9;
+}
